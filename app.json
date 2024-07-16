@@ -17,7 +17,7 @@
     {
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
       "value":"yes",
-      "required":false
+      "required":true
     }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
@@ -36,7 +36,7 @@
        
       "description":"put A name for your bot",
       "value":"FLASH-MD",
-      "required":false
+      "required":true
 
     } ,
      "BOT_MENU_LINKS" : {
@@ -49,8 +49,8 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"no",
-      "required":false
+      "value":"yes",
+      "required":true
     }
 	,
     "HEROKU_API_KEY": {
@@ -65,7 +65,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID , make sure it starts with eyJub2I...",   
-      "value":"",
+      "value":"FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK01yL0FtWDgwbFY4WC84Ti9NcjJZd3dNZ2xuR3Y4Rk1hM1V5SEo0ZUFtWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibmVxWUVKdjNPc1RYcHFRaDBWTUluL21hWU0waE45bzRZSS9haENScWZnbz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIrRTdoTHdsdnF3QnpycS9GMk5CZXJuZElTajY4cE40YjIyd2QxWEp2MzA4PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJiVk9pd3lnc0sxOUQxK3J3VkxrOTlWV01BZ3h6d0xUVi9tMkRJSDc5UlZNPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVBZ2tuTVpjOWxEVDN0UTFSbkRORFZIWWVacU1hQmYrYU8vRFBQbmgyMm89In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Inh0K1dtWkpLNDNQWWRmd1FXdjJORE14a1d1MHQwZU90OGZsSzVWNEN3bEE9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR0NMaU5OdU9WZ2t6dkNEQUJRQ21BMXgwRnhNWDdkcVovYU9uTEpGMnhYYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieURkT3Q1VHNoTmtDeEJHcExLL0hvQWdRWFhFSmRQbDZyWktycXdxSWJTRT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJDUEFHUTUzNXNFeEdCS0dmMTVML1RrZmJmV2Jxc1ZRMm1xR2Q4Y2pDSGxWZWc4M0dmN3loWE1uYm05NjBKdThucW5iZ3NOK3QzY0pvL2d1ZkMreWp3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NTYsImFkdlNlY3JldEtleSI6ImpObHJjVVIvRFFFS0hqRTI3UE4xK1piVHl0OVhCNDhUbWRPVFdsVk1qeTQ9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6InE2dDJlbmNXUUxTak9faFh2ODhUclEiLCJwaG9uZUlkIjoiOTAxNThjMjMtZTA0YS00NzExLWFhNTQtMzhhYzEzNGY0MTFkIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Imp5V251cVhyWENaN3JMWGdNUmdCTXFTRGRPRT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxMFFxeVBNS0hIZ1N3L2RVK3A4RDQrRHlPbXM9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiNUtHMkRBVDgiLCJtZSI6eyJpZCI6IjIzMjczNzc4NjAzOjE1QHMud2hhdHNhcHAubmV0IiwibmFtZSI6Ik9HICBTTUFSVCjplYfkuIrmnIDogarmmI7nmoTkuropIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNMYlQrSklIRU1DeTI3UUdHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJ2YjdqcGxNMlZJYVRyWmxaaFl6ZGNkSXEwRC83MGRaWVlMNEY0bG9yRndvPSIsImFjY291bnRTaWduYXR1cmUiOiJNL1c5eFBhVml1Y3F4SnluRmppNnZWN3pOVXhuMWxVekFRak91Z1VSVURDakFUN00zakpIT3lwMHRXYUJVYnNGU2NBWUVRMnFPVFZTUjl3Uy8zTVNodz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiQVBPUm16Wkk1WTBMU3h2TzhPTWFaVUlDZUQrdnliYU1Ma1FySE0wRzJ5VFpvekYwbDJUcmpaUlBYT3RHSjZ5ajBtWDNBcjBheVRXRVdOcmpkZHhKaEE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzI3Mzc3ODYwMzoxNUBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJiMis0NlpUTmxTR2s2MlpXWVdNM1hIU0t0QS8rOUhXV0dDK0JlSmFLeGNLIn19XSwicGxhdGZvcm0iOiJzbWJpIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIxMTYyMDYxLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUxaSCJ9",
       "required": true
 
     },
@@ -73,15 +73,15 @@
     {
     
     "desc": "Your Name",
-    "required": false,
+    "required": true,
     "value": "France King"
   },
     "OWNER_NUMBER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
-    "required":false,
-    "value": "254757835036"
+    "required":true,
+    "value": "23273778603"
   },
     "WARN_COUNT":
   {
@@ -97,8 +97,8 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
-    "required": false
+    "value":"2",
+    "required": true
   }  
   },
  
